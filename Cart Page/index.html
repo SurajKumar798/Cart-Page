@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+    
+</head>
+<body>
+    <header class="headbar">
+        <div class="logo">
+            <img src="./images/logo.png"/>
+            <h3>Marmeto</h3> 
+        </div>
+        <nav class="navLink">
+            <a>Home</a>
+            <a>Shop</a>
+            <a>About</a>
+            <a>Contact</a>
+        </nav>
+        <div class="cartIcon">
+           <img src="./images/akar-icons_search.png" />
+           <img src="./images/akar-icons_heart.png" />
+           <img src="./images/ant-design_shopping-cart-outlined.png" />
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="logo1">
+            <img src="./images/logo.png"/>
+            <h2>Cart</h2> 
+            <h4>Home > Cart</h4>
+        </div>  
+    </div>
+
+    <div class="cartContent">
+        <table class="cartTable">
+            <thead class="tableHeading">
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantitty</th>
+                    <th>Subtotal</th>
+                </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sample product</td>
+                    <td>10rs</td>
+                    <td>2</td>
+                    <td>20rs</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="pricebox">
+            <h3 style="text-align: center; font-weight: 600;">Cart Totals</h3>
+            <div class="totalPrice">
+                <span>Subtotal</span>
+                <span id="subtotal" style="font-weight: 400;">0</span>
+            </div>
+            <div class="totalPrice">
+                <span>Total</span>
+                <span id="total" style="color: #B88E2F;">0</span>
+            </div>
+            <div class="btn">
+                <button class="checkoutBtn">Check Out</button>
+            </div>
+               
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerContent">
+            <div class="footerItem">
+                <img src="./images/trophy-img.png" alt="High Quality" />
+                <div>
+                    <h4>High Quality</h4>
+                    <p>Crafted from top materials</p>
+                </div>
+            </div>
+    
+            <div class="footerItem">
+                <img src="./images/warranty-img.png" alt="Warranty Protection" />
+                <div>
+                    <h4>Warranty Protection</h4>
+                    <p>Over 2 years</p>
+                </div>
+            </div>
+    
+            <div class="footerItem">
+                <img src="./images/freeshipping-img.png" alt="Free Shipping" />
+                <div>
+                    <h4>Free Shipping</h4>
+                    <p>Order over 150 $</p>
+                </div>
+            </div>
+    
+            <div class="footerItem">
+                <img src="./images/customersupport-img.png" alt="24/7 Support" />
+                <div>
+                    <h4>24/7 Support</h4>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
