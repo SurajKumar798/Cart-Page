@@ -8,6 +8,7 @@ This project is a responsive and dynamic cart page built with **HTML**, **CSS**,
 
 ---
 cart-page/
+
 ├── index.html        
 ├── style.css        
 ├── script.js         
