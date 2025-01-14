@@ -5,8 +5,6 @@ This project is a responsive and dynamic cart page built with **HTML**, **CSS**,
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [API Details](#api-details)
 
 ---
 cart-page/
